@@ -121,8 +121,8 @@ client.find("/library/sections", {type: "movie"}).then(function (directories) {
 });
 
 // criterias are interpreted as regular expressions
-client.find("/library/sections", {type: "movie|shows"}).then(function (directories) {
-	// directories type would be "movie" OR "shows"
+client.find("/library/sections", {type: "movie|show"}).then(function (directories) {
+	// directories type would be "movie" OR "show"
 }, function (err) {
 	throw new Error("Could not connect to server");
 });

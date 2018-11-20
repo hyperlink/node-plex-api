@@ -1,6 +1,6 @@
 {
-  "name": "plex-api",
-  "version": "3.5.0",
+  "name": "@hyperlink/plex-api",
+  "version": "3.6.0",
   "description": "Simple wrapper for querying against HTTP API on the Plex Media Server",
   "main": "lib/api.js",
   "directories": {
@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "lodash": "^4.17.4",
-    "plex-api-credentials": "hyperlink/node-plex-api-credentials#add-managed-users-support",
+    "@hyperlink/plex-api-credentials": "^2.0.0",
     "plex-api-headers": "1.1.0",
     "q": "1.4.1",
     "request": "2.72.0",
